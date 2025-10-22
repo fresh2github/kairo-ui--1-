@@ -1,4 +1,4 @@
- 🌟 KAIRO – The Smart Life Companion App
+# 🌟 KAIRO – The Smart Life Companion App
 
 KAIRO is an all-in-one AI-powered life assistant that helps people **learn smarter, spend wisely, and stay safer** every day.
 
@@ -10,8 +10,13 @@ KAIRO combines **AI automation** and **Composio Tool Router** to create a single
 - 💰 **SpendWise AI:** Monitor spending, detect fraud, and send alerts.
 - 🌸 **WomenAI:** Meal planning, wellness, and emergency SOS with live location.
 - 💪 **MenAI:** FixIt guides, affordable self-care, and bachelor meal plans.
-      TalkZone offers users a private, judgment-free zone to express feelings and get friendly, positive responses.
-      It works in real-time using OpenAI and can understand mood from the user’s text.
+- 🌐 **SocioAware AI:** Detect misinformation and promote positive content.
+
+---💬 TalkZone – AI Emotional Support
+
+TalkZone offers users a private, judgment-free zone to express feelings and get friendly, positive responses.
+It works in real-time using OpenAI and can understand mood from the user’s text.
+
 Example:
 
 User: “I’m really stressed about exams.”
@@ -19,9 +24,8 @@ User: “I’m really stressed about exams.”
 KAIRO: “It’s completely normal to feel that way. You’ve prepared well — take it step-by-step, you’ll do great!”
 
 TalkZone helps users improve mental wellness, reduce loneliness, and feel supported every day.
-- 🌐 **SocioAware AI:** Detect misinformation and promote positive content.
 
----
+
 
 ## ⚙️ Tech Stack
 | Component | Technology |
@@ -31,11 +35,9 @@ TalkZone helps users improve mental wellness, reduce loneliness, and feel suppor
 | **AI Layer** | OpenAI + Composio SDK |
 | **Database** | Firebase / PostgreSQL |
 | **Hosting** | Replit / Render / Vercel |
-| Endpoint    | Method | Description                                     |
-| ----------- | ------ | ----------------------------------------------- |
-| `/talkzone` | POST   | Real-time AI conversation and emotional support |
-
-
+🧩 Add to API Table in README.md
+Endpoint	Method	Description
+/talkzone	POST	Real-time AI conversation and emotional support
 ---
 
 ## 🚀 How to Run the Backend
@@ -71,5 +73,3 @@ Endpoint	Method	Description
 /sos_alert	GET	Women safety SOS
 /fixit_tips	GET	Men’s FixIt tips
 
-
-  
